@@ -39,7 +39,7 @@ const OrderDistribution = () => {
               label={({ name, percent }) =>
                 `${name} ${(percent * 100).toFixed(0)}%`
               }>
-              {orderStatusData.map((entry, index) => (
+              {orderStatusData.map((_, index) => (
                 <Cell
                   key={`cell-${index}`}
                   fill={COLORS[index % COLORS.length]}

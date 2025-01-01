@@ -9,7 +9,7 @@ import SalesTrendChart from '@/components/products/SalesTrendChart'
 
 const ProductsPage = () => {
   return (
-    <div className='flex-1 overflow-auto relative z-10'>
+    <>
       <Header title='Products' />
       <main className='max-w-7xl mx-auto py-6 px-4 lg:px-8'>
         <motion.div
@@ -50,7 +50,7 @@ const ProductsPage = () => {
           <CategoryDistributionChart />
         </div>
       </main>
-    </div>
+    </>
   )
 }
 

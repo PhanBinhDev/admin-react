@@ -12,7 +12,7 @@ import SalesChannelChart from '@/components/overview/SalesChannelChart'
 
 const OverviewPage = () => {
   return (
-    <div className='flex-1 overflow-auto relative z-10'>
+    <>
       <Header title='Overview' />
 
       {/* main content */}
@@ -56,7 +56,7 @@ const OverviewPage = () => {
           <SalesChannelChart />
         </div>
       </main>
-    </div>
+    </>
   )
 }
 
